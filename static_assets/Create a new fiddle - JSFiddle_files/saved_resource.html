@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://fiddle.jshell.net/_display/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
+  
+  
+
+  
+  
+  
+
+  
+
+  <script type="text/javascript" src="./dummy.js"></script>
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+  
+
+  
+
+  <style type="text/css">
+    
+  </style>
+
+  <title></title>
+
+  
+    
+
+
+
+
+<script type="text/javascript">//<![CDATA[
+window.onload=function(){
+var employees=[]
+employees[0]={name:"George", age:32, retiredate:"March 12, 2014"}
+employees[1]={name:"Edward", age:17, retiredate:"June 2, 2023"}
+employees[2]={name:"Christine", age:58, retiredate:"December 20, 2036"}
+employees[3]={name:"Sarah", age:62, retiredate:"April 30, 2020"}
+
+employees.sort(function(a, b){
+    var nameA=a.name.toLowerCase(), nameB=b.name.toLowerCase()
+    if (nameA < nameB) //sort string ascending
+        return -1 
+    if (nameA > nameB)
+        return 1
+    return 0 //default return value (no sorting)
+})
+}//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+  
+  
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "None"
+    }], "*")
+  }
+</script>
+
+
+
+
+
+</body></html>
